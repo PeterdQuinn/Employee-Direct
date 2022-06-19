@@ -10,7 +10,7 @@ function Search(props) {
         props.searchFunction(fullName);
     }
     return (
-        <nav className="navbar navbar-light bg-success justify-content-left">
+        <nav className="navbar navbar-light bg-primary justify-content-left">
             <form className="form-inline">
                 <input className="form-control mr-sm-2" type="search" placeholder="Search by Name" aria-label="Search" onKeyUp={searchFunction}/>
             </form>

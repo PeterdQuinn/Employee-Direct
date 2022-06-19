@@ -27,23 +27,23 @@ function Table(props) {
                                 <th scope="col" onClick={sortTable}>Phone</th>
 
 
-                              </div>
-                              </div>
-                              </div>
-                                
-                            </tr>
-                        </thead>
-                        <tbody>
+                            </div>
+                        </div>
+                    </div>
 
-                            {/* {this.state.friends.map((friend) => <FriendCard key={friend.id} removeFriend={this.removeFriend} {...friend} />)} */}
-                            {props.employees.map(((employee) => {
-                                return <TableRow key={employee.login.uuid} {...employee} />
-                            }))}
-                        </tbody>
-                    </table>
+                </tr>
+            </thead>
+            <tbody>
+
+                {/* {this.state.friends.map((friend) => <FriendCard key={friend.id} removeFriend={this.removeFriend} {...friend} />)} */}
+                {props.employees.map(((employee) => {
+                    return <TableRow key={employee.login.uuid} {...employee} />
+                }))}
+            </tbody>
+        </table>
 
 
-                    )
+    )
 }
 
-                    export default Table;
+export default Table;
