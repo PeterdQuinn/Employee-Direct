@@ -1,6 +1,6 @@
 import React from "react";
 import  Navbar from './component/Navbar/Navbar';
-import Home from './pages/HomePage/Home';
+import LandingPage from './pages/LandingPage/Home';
 import Services from './component/Services/Services';
 import Products from "./pages/Products/Products";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
@@ -118,8 +118,8 @@ class App extends React.Component {
       <GlobalStyle />
       <Navbar />
       <Routes>
-      <Route path="/" element={<Home />}/>
-        
+      <Route path="/" element={<LandingPage />}/>
+         
         <Route path="services" element={<Services />} />
         <Route path="products" element={<Products />} />
       </Routes>
