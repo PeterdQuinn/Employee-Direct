@@ -55,8 +55,8 @@ function Navbar() {
                 </NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks to='/homepage' onClick={closeMobileMenu}>
-                  HomePage
+                <NavLinks to='/landingPage' onClick={closeMobileMenu}>
+                  EmployeeList
                 </NavLinks>
               </NavItem>
               <NavItem>

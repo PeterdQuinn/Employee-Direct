@@ -1,7 +1,8 @@
 import React from "react";
 import  Navbar from './component/Navbar/Navbar';
 import LandingPage from './pages/LandingPage/Home';
-import Services from './component/Services/Services';
+import { Pricing } from "./component";
+import InfoSection from "./component/InfoSection/InfoSection";
 import Products from "./pages/Products/Products";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from "./component/Header";
@@ -119,9 +120,11 @@ class App extends React.Component {
       <Navbar />
       <Routes>
       <Route path="/" element={<LandingPage />}/>
-         
-        <Route path="services" element={<Services />} />
+
+        <Route path="pricing" element={<Pricing />} />
         <Route path="products" element={<Products />} />
+        <Route path="infoSection" element={<InfoSection />} />
+
       </Routes>
     </Router>
   
