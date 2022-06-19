@@ -118,9 +118,10 @@ class App extends React.Component {
       <GlobalStyle />
       <Navbar />
       <Routes>
-        <Route path='/' exact component={Home} />
-        <Route path='/services' component={Services} />
-        <Route path='/products' component={Products} />
+      <Route path="/" element={<Home />}/>
+        
+        <Route path="services" element={<Services />} />
+        <Route path="products" element={<Products />} />
       </Routes>
     </Router>
   
