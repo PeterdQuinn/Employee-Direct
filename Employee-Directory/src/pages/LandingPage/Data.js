@@ -5,13 +5,12 @@ export const homeObjOne = {
     lightText: true,
     lightTextDesc: true,
     topLine: 'Marketing Agency',
-    headline: 'Lead Generation Specialist for Online Businesses',
+    headline: 'Leader Generation of online employment',
     description:
       'We help business owners increase their revenue. Our team of unique specialist can help you achieve your business goals.',
     buttonLabel: 'Get Started',
     imgStart: '',
-    alt: 'Credit Card',
-    start: ''
+   
   };
   
   export const homeObjTwo = {
@@ -35,12 +34,12 @@ export const homeObjOne = {
     lightTopLine: false,
     lightText: false,
     lightTextDesc: false,
-    topLine: 'Sarah Jeni',
+    topLine: 'Peter Quinn',
     headline:
-      'Ultra helped me increase my revenue by over 3X in less than 3 months!',
+      'Helped me increase my companies revenue in 1 month',
     description:
-      "Their team is wonderful! I can't believe I didn't start working with them earlier.",
-    buttonLabel: 'View Case Study',
+      "His team is wonderful and very informational",
+    buttonLabel: 'View his information',
     imgStart: 'start',
     start: 'true'
   };
@@ -52,7 +51,7 @@ export const homeObjOne = {
     lightText: true,
     lightTextDesc: true,
     topLine: 'Secure Database',
-    headline: 'All your data is stored on our secure server',
+    headline: 'With our blockchain technology your data is secure and encrypted',
     description:
       'You will never have to worry about your information getting leaked. Our team of security experts will ensure your records are kept safe.',
     buttonLabel: 'Sign Up Now',
